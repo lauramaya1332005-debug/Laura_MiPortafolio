@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Mi Portafolio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<style>
+*{
+margin: 0;
+Padding:0;
+Box-sizing: Border-box;
+}
+ 
+Body {
+font-family: "Times New Roman", sans-serif;
+line-height:1.6;
+}
+ 
+Header {
+background: #c0bfc1;
+color: #1d1d1b;
+Padding: 20px;
+text-align: center;
+}
+ 
+Header h1 {
+margin-bottom: 10px;
+font-size: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1d1d1b;
+  
+}
+
+ 
+Section {
+padding:40px;
+min-height: 200px;
+text-align: center;
+
+}
+ 
+#Seccion1 {
+background: ##c0bfc1;
+}
+ 
+#Seccion2 {
+background: #ffffff;
+}
+
+#Seccion3 {
+background: #ffffff;
+}
+ 
+#Seccion4 {
+background: #ffffff;
+
+}
+
+#Seccion1 h2 {
+    color: #c4aae8;
+}
+
+#Seccion2 h2 {
+    color: #e3a79f;
+}
+
+#Seccion3 h2 {
+    color: #a6c5b5;
+}
+
+#Seccion4 h2 {
+    color: #ffda71;
+}
+
+section p {
+    max-width: 1080px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #303238;
+}
+ 
+Footer{
+background: #1d1d1b;
+color: #fff;
+text-align: center;
+padding: 15px;
+}
+
+
+#carouselExampleFade {
+    width: 70%;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#carouselExampleFade img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+img {
+width: 300px;
+height: 200px;
+object-fit: cover;
+Border-radius: 8px;
+margin: 40px auto;
+Box-shadow: 0 4px 8px reba (0,0,0,0,1)
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+<h1>Mi Portafolio</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre mi</a></li>
+                <li><a href="Proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+</header>
+
+<section id="Seccion1">
+<h2>SOBRE MI</h2>
+<p>Me llamo Laura y me caracterizo por ser una profesional resolutiva, organizada y en constante aprendizaje. Trabajo con soltura el paquete Adobe, especialmente Illustrator, asegurando resultados visuales precisos, atractivos y alineados con cada proyecto.</p>
+</section>
+
+
+
+<section id="Seccion2">
+<h2>ESTUDIOS</h2>
+<p>Soy Técnica en Preimpresión y Community Manager. Actualmente, estoy cursando el Grado Superior en Diseño y Edición de Publicaciones Impresas y Multimedia.</p>
+</section>
+
+<section id="Seccion3">
+<h2>EXPERIENCIA</h2>
+<p>Cuento con experiencia en la creación, desarrollo y optimización de piezas visuales, tanto para medios impresos como digitales. Además, me especializo en marketing para redes sociales, combinando estrategia y creatividad para potenciar la identidad y el alcance de las marcas.<p>
+
+<div class="contenedor-imágenes">
+<img src="img3.png">
+</div>
+</section>
+
+
+<section id="Seccion4">
+<h2>HOBBY</h2>
+<p>Fuera del ámbito profesional, me encanta leer, hacer manualidades a crochet y disfrutar de una buena película mientras tomo mi café de la tarde, acompañado de un cruasán o de cualquier otro capricho que me apetezca en ese momento. Son actividades que me ayudan a desconectar, relajarme y dedicarme un tiempo a mí misma, algo que considero muy importante para recargar energías y encontrar un equilibrio entre mis responsabilidades y mis momentos de ocio.<p>
+
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade"
+     data-bs-ride="carousel"
+     data-bs-interval="3000">
+  <div class="carousel-inner">
+    
+<div class="carousel-item active">
+      <img src="img1.png" class="d-block w-100" alt="Libros">
+    </div>
+    
+<div class="carousel-item">
+      <img src="img2.png" class="d-block w-100" alt="Crochet">
+    </div>
+    
+<div class="carousel-item">
+      <img src="img4.png" class="d-block w-100" alt="coffee">
+    </div>
+ 
+<div class="carousel-item">
+      <img src="img5.png" class="d-block w-100" alt="pelicula">
+  </div>
+ </div>
+  
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<footer>
+&copy; 2026 Mi Portfolio  
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
